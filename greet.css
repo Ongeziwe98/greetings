@@ -1,0 +1,48 @@
+body {
+    background-image: url(img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    width: 160px;
+    border: 5px solid black;
+    padding: 20px;
+    margin: 5px;
+    height: 50;
+}
+
+.heading {
+    justify-content: center;
+    display: flex;
+}
+
+.addingName {
+    justify-content: center;
+    display: flex;
+}
+
+.button {
+    justify-content: center;
+    display: flex;
+
+}
+.clicking{
+    justify-content: center;
+    display: flex;
+
+}
+.font-color{
+    color: whitesmoke; 
+}
+.displayBox {
+    justify-content: center;
+    display: flex;
+
+}
+.counter{
+    justify-content: center;
+    display: flex;
+    margin-top: 3em;
+
+}
