@@ -30,18 +30,11 @@ describe('greet function' , function(){
          assert.deepEqual(2,greetings.counterValue());
      });
      
-    //  it('should show an error message when there is no name and language entered in the input box. ' , function(){
-    //     var greetings = GreetFactory();
-    //      assert.deepEqual(greetings.greet(""),"Please select language or add name");
-    //  });
+     it('should show an error message when there is no name and language entered in the input box. ' , function(){
+        var greetings = GreetFactory();
+         assert.deepEqual(greetings.greet(""),"Please select language or add name!");
+     });
 
 });
-
-
-//     it('should  add the name to the object if the person has not being greeted. ' , function(){
-//        var greetings = GreetFactory();
-//         assert.deepEqual(greetings.addName("Amanda"),[{"Amanda"}]);
-//     });
-// });
 
 

@@ -3,6 +3,7 @@ function GreetFactory(list) {
     var theGreeting;
 
     function greet(name, language) {
+
         
         if (!language || !name) {
             return "Please select language or add name!"
