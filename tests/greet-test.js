@@ -1,17 +1,17 @@
 describe('greet function' , function(){
     it('should greet a person in "English" language. ' , function(){
        var greetings = GreetFactory();
-        assert.deepEqual(greetings.greet("English", "Amanda"),"Hello, Amanda");
+        assert.deepEqual(greetings.greet("Amanda", "English"),"Hello, Amanda");
     });
 
     it('should greet a person in "isiXhosa" language. ' , function(){
         var greetings = GreetFactory();
-         assert.deepEqual(greetings.greet("isiXhosa", "Mabaxole"),"Molo, Mabaxole");
+         assert.deepEqual(greetings.greet("Mabaxole","isiXhosa"),"Molo, Mabaxole");
      });
 
      it('should greet a person in "Afrikaans" language. ' , function(){
         var greetings = GreetFactory();
-         assert.deepEqual(greetings.greet("Afrikaans", "Adonis"),"Hallo, Adonis");
+         assert.deepEqual(greetings.greet("Adonis","Afrikaans"),"Hallo, Adonis");
      });
    
      it('should return number of people greeted. ' , function(){

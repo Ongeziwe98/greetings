@@ -2,9 +2,7 @@ function GreetFactory(list) {
     var peopleGreeted = list || {};
     var theGreeting;
 
-
-
-    function greet(language, name) {
+    function greet(name, language) {
 
 
         var upperCase = name.charAt(0).toUpperCase() + name.slice(1);
