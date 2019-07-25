@@ -13,7 +13,7 @@ var input = itemType.value
 var greetings = GreetFactory(storeName);
 
 
-var storeName = localStorage.getItem('counterValue');
+// var storeName = localStorage.getItem('counterValue');
 
 theCounter.innerHTML = greetings.counterValue()
 
@@ -35,16 +35,13 @@ function addButton() {
     localStorage.setItem('name', JSON.stringify(greetings.findName()));
 
 
-    theCounter.innerHTML = greetings.counterValue()
+     theCounter.innerHTML = greetings.counterValue()
 }
 
 resetBtnElem.addEventListener('click', function () {
     window.location.reload();
     localStorage.clear();
     displayBoxElem.innerHTML = 0;
-    // theCounter.innerHTML = "";
-    // document.querySelector(".stringField").value = "";
-    // radioBtnElement.innerHTML ="";
 });
 
 
