@@ -6,8 +6,9 @@ function GreetFactory(list) {
 
 
         var upperCase = name.charAt(0).toUpperCase() + name.slice(1);
-        if (peopleGreeted[name] === undefined) {
-            peopleGreeted[name] = 0
+        var lowerAll = name.toLowerCase()
+        if (peopleGreeted[lowerAll] === undefined) {
+            peopleGreeted[lowerAll] = 0
         }
         if (!language) {
             return "Please select language or add name!"
